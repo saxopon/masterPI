@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78985941B37138900C7CF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78985931B37138900C7CF07 /* AppDelegate.swift */; };
+		C78985961B37138900C7CF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78985951B37138900C7CF07 /* ViewController.swift */; };
+		C78985991B37138900C7CF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78985971B37138900C7CF07 /* Main.storyboard */; };
+		C789859B1B37138900C7CF07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C789859A1B37138900C7CF07 /* Images.xcassets */; };
+		C789859E1B37138900C7CF07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C789859C1B37138900C7CF07 /* LaunchScreen.xib */; };
+		C78985AA1B37138900C7CF07 /* PiMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78985A91B37138900C7CF07 /* PiMasterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78985A41B37138900C7CF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78985861B37138900C7CF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C789858D1B37138900C7CF07;
+			remoteInfo = PiMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C789858E1B37138900C7CF07 /* PiMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78985921B37138900C7CF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78985931B37138900C7CF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C78985951B37138900C7CF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C78985981B37138900C7CF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C789859A1B37138900C7CF07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C789859D1B37138900C7CF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C78985A31B37138900C7CF07 /* PiMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78985A81B37138900C7CF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78985A91B37138900C7CF07 /* PiMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiMasterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C789858B1B37138900C7CF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78985A01B37138900C7CF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78985851B37138900C7CF07 = {
+			isa = PBXGroup;
+			children = (
+				C78985901B37138900C7CF07 /* PiMaster */,
+				C78985A61B37138900C7CF07 /* PiMasterTests */,
+				C789858F1B37138900C7CF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C789858F1B37138900C7CF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C789858E1B37138900C7CF07 /* PiMaster.app */,
+				C78985A31B37138900C7CF07 /* PiMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78985901B37138900C7CF07 /* PiMaster */ = {
+			isa = PBXGroup;
+			children = (
+				C78985931B37138900C7CF07 /* AppDelegate.swift */,
+				C78985951B37138900C7CF07 /* ViewController.swift */,
+				C78985971B37138900C7CF07 /* Main.storyboard */,
+				C789859A1B37138900C7CF07 /* Images.xcassets */,
+				C789859C1B37138900C7CF07 /* LaunchScreen.xib */,
+				C78985911B37138900C7CF07 /* Supporting Files */,
+			);
+			path = PiMaster;
+			sourceTree = "<group>";
+		};
+		C78985911B37138900C7CF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78985921B37138900C7CF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78985A61B37138900C7CF07 /* PiMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78985A91B37138900C7CF07 /* PiMasterTests.swift */,
+				C78985A71B37138900C7CF07 /* Supporting Files */,
+			);
+			path = PiMasterTests;
+			sourceTree = "<group>";
+		};
+		C78985A71B37138900C7CF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78985A81B37138900C7CF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C789858D1B37138900C7CF07 /* PiMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78985AD1B37138900C7CF07 /* Build configuration list for PBXNativeTarget "PiMaster" */;
+			buildPhases = (
+				C789858A1B37138900C7CF07 /* Sources */,
+				C789858B1B37138900C7CF07 /* Frameworks */,
+				C789858C1B37138900C7CF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiMaster;
+			productName = PiMaster;
+			productReference = C789858E1B37138900C7CF07 /* PiMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78985A21B37138900C7CF07 /* PiMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78985B01B37138900C7CF07 /* Build configuration list for PBXNativeTarget "PiMasterTests" */;
+			buildPhases = (
+				C789859F1B37138900C7CF07 /* Sources */,
+				C78985A01B37138900C7CF07 /* Frameworks */,
+				C78985A11B37138900C7CF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78985A51B37138900C7CF07 /* PBXTargetDependency */,
+			);
+			name = PiMasterTests;
+			productName = PiMasterTests;
+			productReference = C78985A31B37138900C7CF07 /* PiMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78985861B37138900C7CF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Elektra Wrenholt";
+				TargetAttributes = {
+					C789858D1B37138900C7CF07 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = P8YLM6AWD9;
+					};
+					C78985A21B37138900C7CF07 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C789858D1B37138900C7CF07;
+					};
+				};
+			};
+			buildConfigurationList = C78985891B37138900C7CF07 /* Build configuration list for PBXProject "PiMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78985851B37138900C7CF07;
+			productRefGroup = C789858F1B37138900C7CF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C789858D1B37138900C7CF07 /* PiMaster */,
+				C78985A21B37138900C7CF07 /* PiMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C789858C1B37138900C7CF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78985991B37138900C7CF07 /* Main.storyboard in Resources */,
+				C789859E1B37138900C7CF07 /* LaunchScreen.xib in Resources */,
+				C789859B1B37138900C7CF07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78985A11B37138900C7CF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C789858A1B37138900C7CF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78985961B37138900C7CF07 /* ViewController.swift in Sources */,
+				C78985941B37138900C7CF07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C789859F1B37138900C7CF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78985AA1B37138900C7CF07 /* PiMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78985A51B37138900C7CF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C789858D1B37138900C7CF07 /* PiMaster */;
+			targetProxy = C78985A41B37138900C7CF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C78985971B37138900C7CF07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78985981B37138900C7CF07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C789859C1B37138900C7CF07 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C789859D1B37138900C7CF07 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78985AB1B37138900C7CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78985AC1B37138900C7CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78985AE1B37138900C7CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PiMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wrenholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C78985AF1B37138900C7CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PiMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wrenholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C78985B11B37138900C7CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wrenholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiMaster.app/PiMaster";
+			};
+			name = Debug;
+		};
+		C78985B21B37138900C7CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wrenholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiMaster.app/PiMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78985891B37138900C7CF07 /* Build configuration list for PBXProject "PiMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78985AB1B37138900C7CF07 /* Debug */,
+				C78985AC1B37138900C7CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78985AD1B37138900C7CF07 /* Build configuration list for PBXNativeTarget "PiMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78985AE1B37138900C7CF07 /* Debug */,
+				C78985AF1B37138900C7CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78985B01B37138900C7CF07 /* Build configuration list for PBXNativeTarget "PiMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78985B11B37138900C7CF07 /* Debug */,
+				C78985B21B37138900C7CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78985861B37138900C7CF07 /* Project object */;
+}
